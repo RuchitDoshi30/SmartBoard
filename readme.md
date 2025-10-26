@@ -147,9 +147,9 @@ CREATE TABLE admin_user (
 );
 ⚙️ Configuration
 hibernate.cfg.xml
-
+```
 xml
-Copy code
+```
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE hibernate-configuration PUBLIC
           "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
@@ -168,6 +168,9 @@ Copy code
     <mapping class="com.smartboard.model.AdminUser"/>
   </session-factory>
 </hibernate-configuration>
+```
+---
+
 🧰 Build & Run
 Prerequisites
 Java JDK 8 or later
